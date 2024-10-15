@@ -17,7 +17,11 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/real-state-frontend" element={<Home />} />
-        <Route exact path="/property/:id" element={<PropertyDetails />} />
+        <Route
+          exact
+          path="/real-state-frontend/property/:id"
+          element={<PropertyDetails />}
+        />
       </Routes>
       <Footer />
     </div>

@@ -11,17 +11,17 @@ const Header = () => {
     <header className="py-6 mb-12 border-b">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Link to="/">
+        <Link to="/real-state-frontend">
           <img src={Logo} alt="" />
         </Link>
         {/* Buttons */}
         <div className="flex items-center gap-6">
-          <Link className="hover:text-violet-900 transition" to="">
+          <Link className="hover:text-violet-900 transition" to="#">
             Log In
           </Link>
           <Link
             className="bg-violet-700 hover:bg-violet-800 text-white px-4 py-3 rounded-lg transition"
-            to=""
+            to="#"
           >
             Sign Up
           </Link>
